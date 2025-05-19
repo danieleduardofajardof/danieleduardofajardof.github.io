@@ -1,1 +1,131 @@
-Hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DEFF Consulting</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f7fa;
+      color: #1a1a1a;
+    }
+    header {
+      background-color: #0a1f44;
+      color: white;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    .logo img {
+      height: 40px;
+      margin-right: 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    nav a {
+      color: white;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: linear-gradient(to right, #e0f0ff, #f4faff);
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .cta-button {
+      background-color: #0a1f44;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 3rem 1rem;
+      gap: 2rem;
+      background-color: white;
+    }
+    .service {
+      background: #f0f4f8;
+      padding: 2rem;
+      border-radius: 12px;
+      max-width: 300px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .service h3 {
+      margin-bottom: 1rem;
+      color: #0a1f44;
+    }
+    footer {
+      background-color: #0a1f44;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="DEFF Consulting Logo">
+      <h1>DEFF Consulting</h1>
+    </div>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Empowering Your Digital Future</h2>
+    <p>Technology solutions tailored to your business goals. Let's innovate together.</p>
+    <button class="cta-button">Get Started</button>
+  </section>
+
+  <section class="services" id="services">
+    <div class="service">
+      <h3>Cloud Transformation</h3>
+      <p>We help businesses migrate, manage, and scale their cloud infrastructure efficiently and securely.</p>
+    </div>
+    <div class="service">
+      <h3>Data Strategy</h3>
+      <p>Design and implement modern data pipelines, analytics, and governance models to extract value from your data.</p>
+    </div>
+    <div class="service">
+      <h3>AI & Automation</h3>
+      <p>Leverage AI and intelligent automation to optimize operations and improve decision-making.</p>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>&copy; 2025 DEFF Consulting. All rights reserved.</p>
+    <p>Contact us at <a href="mailto:danielfajardoy@gmail.com" style="color: #aadfff;">info@deffconsulting.com</a></p>
+  </footer>
+</body>
+</html>
